@@ -2,8 +2,7 @@
 Đồ án nhóm 3 nộp môn hệ thống nhúng
 
 Bao gồm file code:
-STM32 
-,ESP32 code trên nền tảng Arduino IOT Cloud
+STM32 code trên Keil C (thư viện HAL), ESP32 code trên nền tảng Arduino IOT Cloud
 
 STM32:
 UART + Ringbuffer + Phân tích chuỗi
