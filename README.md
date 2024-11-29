@@ -3,7 +3,7 @@
 
 Bao gồm file code:
 STM32 
-ESP32 code trên nền tảng Arduino IOT Cloud
+,ESP32 code trên nền tảng Arduino IOT Cloud
 
 STM32:
 UART + Ringbuffer + Phân tích chuỗi
