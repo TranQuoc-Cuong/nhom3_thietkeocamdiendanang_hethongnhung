@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"testing4\startup_stm32f103xb.o"
+"testing4\main.o"
+"testing4\stm32f1xx_it.o"
+"testing4\stm32f1xx_hal_msp.o"
+"testing4\stm32f1xx_hal_gpio_ex.o"
+"testing4\stm32f1xx_hal_adc.o"
+"testing4\stm32f1xx_hal_adc_ex.o"
+"testing4\stm32f1xx_hal.o"
+"testing4\stm32f1xx_hal_rcc.o"
+"testing4\stm32f1xx_hal_rcc_ex.o"
+"testing4\stm32f1xx_hal_gpio.o"
+"testing4\stm32f1xx_hal_dma.o"
+"testing4\stm32f1xx_hal_cortex.o"
+"testing4\stm32f1xx_hal_pwr.o"
+"testing4\stm32f1xx_hal_flash.o"
+"testing4\stm32f1xx_hal_flash_ex.o"
+"testing4\stm32f1xx_hal_exti.o"
+"testing4\stm32f1xx_hal_tim.o"
+"testing4\stm32f1xx_hal_tim_ex.o"
+"testing4\stm32f1xx_hal_uart.o"
+"testing4\system_stm32f1xx.o"
+"testing4\ringbuffer.o"
+"testing4\uart.o"
+--strict --scatter "Testing4\Testing4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Testing4.map" -o Testing4\Testing4.axf
